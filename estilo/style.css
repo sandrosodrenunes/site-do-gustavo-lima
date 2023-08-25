@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #020203;
+    --cor1: #514952;
+    --cor2: #97689C;
+
+    --font-paradrao: Arial Helvetica Sans-Serif; 
+    --font-destaque:
+    --font-text:
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: var(--cor0);
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+nav a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+    border-radius: 5px;
+}
+body{
+    background-color: var(--cor1);
+    line-height: 2em;
+    word-wrap: break-word;
+}
+header{
+    background-color: var(--cor0);
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+header h1{
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+header p{
+    padding-bottom: 10xp;
+}
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+main p{
+    text-indent: 30px;
+}
+main h1, h2{
+    font-size: 2em;
+}
+main h2{
+    background-image: linear-gradient(90deg, var(--cor2), transparent);
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+}
+div.videos{
+    background-color: black;
+    position: relative;
+    padding-bottom: 400px;
+    
+}
+iframe{
+    position: absolute;
+
+    left: 5%;
+    top: 5%;
+
+    width: 90%;
+    height: 90%;
+
+}
+aside{
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+ul{
+    columns: 2;
+    list-style-position: inside;
+    color: white;
+    padding: 10px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 10px;
+}
+footer{
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
